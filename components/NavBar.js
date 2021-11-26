@@ -10,10 +10,10 @@ const NavBar=()=>{
     <>
       <nav className={styles.navbar}>
         <ul className={styles.list}>
-          <li className={styles.button}><Link href="/"><a>Home</a></Link></li>
-          <li className={styles.button}><Link href="/"><a>Events</a></Link></li>
-          <li className={styles.button}><Link href="/"><a>Team Details</a></Link></li>
-          <li className={styles.button}><Link href="/"><a>Contact Us</a></Link></li>
+          <li className={styles.buttons_view}><Link href="/"><a>Home</a></Link></li>
+          <li className={styles.buttons_view}><Link href="/"><a>Events</a></Link></li>
+          <li className={styles.buttons_view}><Link href="/"><a>Team Details</a></Link></li>
+          <li className={styles.buttons_view}><Link href="/"><a>Contact Us</a></Link></li>
         </ul>
       </nav> 
       <div className={styles.navbar_mobile}>
@@ -22,11 +22,11 @@ const NavBar=()=>{
         </div>
         <nav className={sidebar ? styles.nav_menu_active : styles.nav_menu}>
           <ul className={styles.nav_menu_items} onClick={showSidebar}>
-            <li className={styles.button}><Link href="/"><a>Close &times;</a></Link></li>
-            <li className={styles.button}><Link href="/"><a>Home</a></Link></li>
-            <li className={styles.button}><Link href="/"><a>Events</a></Link></li>
-            <li className={styles.button}><Link href="/"><a>Team Details</a></Link></li>
-            <li className={styles.button}><Link href="/"><a>Contact Us</a></Link></li>
+            <li className={styles.buttons_view}><Link href="/"><a>Close &times;</a></Link></li>
+            <li className={styles.buttons_view}><Link href="/"><a>Home</a></Link></li>
+            <li className={styles.buttons_view}><Link href="/"><a>Events</a></Link></li>
+            <li className={styles.buttons_view}><Link href="/"><a>Team Details</a></Link></li>
+            <li className={styles.buttons_view}><Link href="/"><a>Contact Us</a></Link></li>
           </ul>
         </nav>
       </div>
