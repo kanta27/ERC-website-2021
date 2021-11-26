@@ -136,4 +136,4 @@ const EventsPage = ({ allBlogs }) => {
   )
 }
 
-export default BlogList
+export default EventsPage 
