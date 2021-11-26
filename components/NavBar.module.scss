@@ -6,9 +6,7 @@
     padding: 7px;
     list-style: none;
     position: absolute;
-    width: 1160px;
-    height: 216px;
-    left: 1080px;
+    right: 3%;
 }
 
 .button {
@@ -33,4 +31,10 @@
     //     background-color: #c6c913;
     //     color: #ffffff;
     //}
+}
+
+@media (max-width:600px) {
+    .navbar {
+        background-color: #ffffff;    
+    }
 }
