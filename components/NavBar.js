@@ -17,8 +17,8 @@ const NavBar=()=>{
         </ul>
       </nav> 
       <div className={styles.navbar_mobile}>
-        <div className={styles.na}>
-          <button href="/" className={styles.menu_bars} onClick={showSidebar}>☰</button>
+        <div className={styles.hamburger_icon_block}>
+          <button href="/" className={styles.hamburger_icon_button} onClick={showSidebar}>☰</button>
         </div>
         <nav className={sidebar ? styles.nav_menu_active : styles.nav_menu}>
           <ul className={styles.nav_menu_items} onClick={showSidebar}>
