@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #000000;    
+}
+
+.list {
+    padding: 7px;
+    list-style: none;
+    position: absolute;
+    width: 1160px;
+    height: 216px;
+    left: 1080px;
+}
+
+.button {
+    background-color:  #000000;
+    border: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline;
+    font-family: 'Lato Light', Arial, sans-serif;
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    
+    // align-items: center;
+    // text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    // &:hover,
+    // &:focus,
+    // &.active {
+    //     background-color: #c6c913;
+    //     color: #ffffff;
+    //}
+}
