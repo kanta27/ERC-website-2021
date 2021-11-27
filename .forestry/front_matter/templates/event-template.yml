@@ -15,3 +15,4 @@ fields:
   label: hero_image
 pages:
 - events/test-event.md
+- events/testing-media.md
