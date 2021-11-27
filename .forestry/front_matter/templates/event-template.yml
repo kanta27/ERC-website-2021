@@ -1,0 +1,20 @@
+---
+label: event-template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: author
+  label: author
+- type: datetime
+  name: date
+  label: date
+  config:
+    export_format: "'YYYY-MM-DDThh:mm:ssZ'"
+- type: file
+  name: hero_image
+  label: hero_image
+pages:
+- events/test-event.md
