@@ -5,7 +5,7 @@ function Title(props) {
 	return (
 		<div class={styles.container}>
 			<img class={styles.title} src="/static/images/title_image.png" />
-			<img class={styles.ERC_logo} src="/static/images/ERC_white.png" alt="Electronics and Robotics Club"/>
+			<img class={styles.ERC_logo} src="/static/images/ERC_white.png" />
 		</div>
 
 	);
