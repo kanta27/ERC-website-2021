@@ -3,9 +3,9 @@ import styles from "./Title.module.scss"
 
 function Title(props) {
 	return (
-		<div class={styles.container}>
-			<img class={styles.title} src="/static/images/title_image.png" />
-			<img class={styles.ERC_logo} src="/static/images/ERC_white.png" />
+		<div className={styles.container}>
+			<img className={styles.title} src="/static/images/title_image.png" />
+			<img className={styles.ERC_logo} src="/static/images/ERC_white.png" />
 		</div>
 
 	);
