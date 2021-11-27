@@ -8,13 +8,18 @@ fields:
 - type: text
   name: author
   label: author
-- type: datetime
-  name: date
-  label: date
-  config:
-    export_format: '"YYYY-MM-DDThh:mm:ssZ"'
 - type: file
   name: hero_image
   label: hero_image
+- name: date
+  type: datetime
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: date
 pages:
 - posts/test-3.md
+- posts/test-with-new-date-field.md
