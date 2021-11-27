@@ -1,6 +1,6 @@
 ---
 author: Grace Hopper
-date: '2019-07-09T16:04:44.000Z'
+date: 2019-07-09T16:04:44.000Z
 hero_image: ../static/johannes-andersson-joshua-tree.jpg
 title: An otherworldly desert
 ---
