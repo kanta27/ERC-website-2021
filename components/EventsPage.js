@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
 
-const BlogList = ({ allBlogs }) => {
+const EventsPage = ({ allBlogs }) => {
   function truncateSummary(content) {
     return content.slice(0, 200).trimEnd()
   }
@@ -136,4 +136,4 @@ const BlogList = ({ allBlogs }) => {
   )
 }
 
-export default BlogList
+export default EventsPage 

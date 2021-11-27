@@ -177,7 +177,7 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
 
 export async function getStaticProps({ ...ctx }) {
   const { slug } = ctx.params
-  const content = await import(`../../posts/${slug}.md`)
+  const content = await import(`../../events/${slug}.md`)
   const config = await import(`../../data/config.json`)
   const data = matter(content.default)
 
@@ -192,7 +192,7 @@ export async function getStaticProps({ ...ctx }) {
 
 export async function getStaticPaths() {
   //get all .md files in the posts dir
-  const blogs = glob.sync('posts/**/*.md')
+  const blogs = glob.sync('events/**/*.md')
 
   //remove path and extension to leave filename only
   const blogSlugs = blogs.map(file =>

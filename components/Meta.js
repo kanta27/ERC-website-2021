@@ -184,7 +184,7 @@ export default function Meta(props) {
                     font-size: 1.2rem;
                     letter-spacing: -0.5px;
                     line-height: 1.1875;
-                    color: #a0a0a0;
+                    color: #ffffff;
                     font-weight: normal;
                     }
 
@@ -192,7 +192,7 @@ export default function Meta(props) {
                     font-size: 1.2rem;
                     letter-spacing: -0.5px;
                     line-height: 1.5;
-                    color: #464646;
+                    color: #ffffff;
                     }
 
                     @media (min-width: 1280px) {
@@ -212,7 +212,7 @@ export default function Meta(props) {
                             font-size: 1rem;
                             letter-spacing: -0.5px;
                             line-height: 1.1875;
-                            color: #a0a0a0;
+                            color: #ffffff;
                             font-weight: normal;
                         }
 
