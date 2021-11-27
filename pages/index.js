@@ -1,12 +1,8 @@
 import Layout from '../components/Layout'
+import TeamDetails from '../components/Team';
 
 export default function Info() {
   return (
-    <Layout
-      pathname="index"
-    >
-      Title Page
-      team info
-    </Layout>
+    <TeamDetails />
   )
 }

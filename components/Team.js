@@ -1,9 +1,9 @@
 function TeamDetails(){
 
     return(
-    <div classNameName="team-details" >
+    <div className="team-details" >
 
-        <div classNameName=" team-section " id='ercteamdet'>
+        <div className=" team-section " id='ercteamdet'>
             <div className=" team-head background-parallax hover-enlarge">
                 <h2>Meet the Team</h2>
             </div>
