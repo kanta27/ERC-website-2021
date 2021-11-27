@@ -1,18 +1,18 @@
 .navbar{
-    // background-color: #000000;    
+    // background-color: rgba(0, 0, 0, 0.5);
     z-index: 10000000000000000000000000000;
 }
 
 .list {
-    // background-color: #000000;
+    // background-color: rgba(0, 0, 0, 0.4);
     padding: 7px;
     list-style: none;
     position: absolute;
-    right: 3%;
+    right: 0;
 }
 
 .buttons_view {
-    // background-color:  #000000;
+    background-color: rgba(28,29,33, 0.6);
     border: none;
     box-sizing: border-box;
     color: #ffffff;
