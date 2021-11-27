@@ -18,3 +18,4 @@ fields:
   label: hero_image
 pages:
 - posts/test-blog-post.md
+- posts/test-post-2.md
