@@ -11,6 +11,8 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    export_format: "'YYYY-MM-DDThh:mm:ssZ'"
 - type: file
   name: hero_image
   label: hero_image
