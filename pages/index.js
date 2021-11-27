@@ -6,13 +6,13 @@ import TeamDetails from '../components/Team'
 export default function Info() {
   return (
     <>
-    {/* // <Layout */}
-      {/* // pathname="index" */}
-    {/* // > */}
-      <NavBar />
+    <Layout
+      pathname="index"
+      >
+      {/* <NavBar /> */}
       <Title />
       <TeamDetails />
-    {/* // </Layout> */}
+    </Layout>
     </>
   )
 }

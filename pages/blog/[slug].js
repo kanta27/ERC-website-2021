@@ -39,8 +39,11 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
       </article>
       <style jsx>
         {`
-          background-color: #1d252e;
-          color: #ffffff;
+          .blog {
+            background-color: #1D252E;
+            color: #ffffff;
+            margin-bottom: 0;
+          }
       
           .blog h1 {
             margin-bottom: 0.7rem;

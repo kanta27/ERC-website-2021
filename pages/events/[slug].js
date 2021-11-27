@@ -39,8 +39,10 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
       </article>
       <style jsx>
         {`
-          background-color: #1d252e;
-          color: #ffffff;
+          .blog{
+            background-color: #1d252e;
+            color: #ffffff;
+          }
       
           .blog h1 {
             margin-bottom: 0.7rem;
@@ -204,7 +206,7 @@ export async function getStaticPaths() {
   )
 
   // create paths with `slug` param
-  const paths = blogSlugs.map(slug => `/blog/${slug}`)
+  const paths = blogSlugs.map(slug => `/events/${slug}`)
   return {
     paths,
     fallback: false,

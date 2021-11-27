@@ -1,5 +1,8 @@
 import Header from "./Header";
 import Meta from './Meta'
+import NavBar from "./NavBar";
+import TeamDetails from "./Team";
+import ContactUs from "./Contact";
 
 export default function Layout(props) {
   return (
@@ -17,8 +20,9 @@ export default function Layout(props) {
       siteTitle={props.siteTitle}
       siteDescription={props.siteDescription}
     />
-    <Header siteTitle={props.siteTitle} />
+    <NavBar />
     <div className="content">{props.children}</div>
+    <ContactUs />
     <style jsx>
       {`
         .layout {
@@ -39,8 +43,8 @@ export default function Layout(props) {
           }
           .content {
             flex-grow: none;
-            width: 70vw;
-            margin-left: 30vw;
+            width: 100vw;
+            margin-left: 0vw;
           }
         }
       `}

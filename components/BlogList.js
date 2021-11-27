@@ -13,6 +13,7 @@ const BlogList = ({ allBlogs }) => {
 
   return (
     <>
+      <h1 className="title">Blogs</h1>
       <ul className="list">
         {allBlogs.length > 1 &&
           allBlogs.map(post => (
@@ -41,10 +42,16 @@ const BlogList = ({ allBlogs }) => {
       </ul>
       <style jsx>
         {`
-          background-color: #1d252e;
-          color: #ffffff;
-
-          margin-bottom: 0;
+          .title {
+            color: white;
+            font-size: 80px;
+            margin: 20px;
+          }
+          .list {
+            background-color: #1D252E;
+            color: #ffffff;
+            margin-bottom: 0;
+          }
           a:hover {
             opacity: 1;
           }
