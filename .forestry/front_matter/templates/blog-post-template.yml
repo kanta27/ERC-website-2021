@@ -20,6 +20,3 @@ fields:
     time_format: 
     display_utc: false
   label: date
-pages:
-- posts/test-3.md
-- posts/test-with-new-date-field.md
