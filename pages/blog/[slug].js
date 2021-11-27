@@ -183,6 +183,7 @@ export async function getStaticProps({ ...ctx }) {
   const content = await import(`../../posts/${slug}.md`)
   const config = await import(`../../data/config.json`)
   const data = matter(content.default)
+  if ((typeof data.data.date) !== "string") data.data.date = data.data.date.toISOString();
 
   return {
     props: {

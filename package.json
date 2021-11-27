@@ -1,5 +1,5 @@
 {
-  "name": "brevifolia-nextjs",
+  "name": "ERC-website-2021",
   "private": true,
   "description": "ERC Website",
   "license": "MIT",
@@ -9,6 +9,7 @@
     "dev": "next",
     "develop": "yarn dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start"
   },
   "dependencies": {

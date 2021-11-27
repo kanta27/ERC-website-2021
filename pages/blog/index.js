@@ -35,7 +35,6 @@ export async function getStaticProps() {
       const value = values[index]   
       // Parse yaml metadata & markdownbody in document
       const document = matter(value.default)
-
       if ((typeof document.data.date) !== "string") document.data.date = document.data.date.toISOString();
 
       return {
