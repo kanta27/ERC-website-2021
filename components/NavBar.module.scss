@@ -1,5 +1,6 @@
 .navbar{
     background-color: #000000;    
+    z-index: 100000000;
 }
 
 .list {
@@ -81,11 +82,12 @@
 }
 
 @media screen and (max-width:600px) {
-    .navbar{
+    .navbar {
         display:none;
     }
     .navbar_mobile{
-        display:flex
+        display:flex;
+        z-index: 10000;
     }    
     .buttons_view {
         display:flex;
