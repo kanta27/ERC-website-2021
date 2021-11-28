@@ -6,4 +6,6 @@ module.exports = {
     })
     return config
   },
+  basePath: "/ERC-website-2021",
+  assetPrefix: "/ERC-website-2021"
 }
