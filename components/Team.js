@@ -1,3 +1,6 @@
+
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ""
+
 function TeamDetails() {
   return (
     <div className="team-details">
@@ -27,7 +30,7 @@ function TeamDetails() {
                   </a>
                 </div>
                 <img
-                  src="/static/team-files/media/Sharvaree"
+                  src={prefix + "/static/team-files/media/Sharvaree"}
                   alt="Sharvaree Sinkar's Image"
                 />
               </div>
@@ -54,7 +57,7 @@ function TeamDetails() {
                   </a>
                 </div>
                 <img
-                  src="/static/team-files/media/Sidharth"
+                  src={prefix + "/static/team-files/media/Sidharth"}
                   alt="Sidharth Mundhra's Image"
                 />
               </div>
@@ -83,7 +86,7 @@ function TeamDetails() {
                   </a>
                 </div>
                 <img
-                  src="/static/team-files/media/Chaitanya"
+                  src={prefix + "/static/team-files/media/Chaitanya"}
                   alt="Chaitanya Langde's Image"
                 />
               </div>
@@ -110,7 +113,7 @@ function TeamDetails() {
                   </a>
                 </div>
                 <img
-                  src="/static/team-files/media/Dadi"
+                  src={prefix + "/static/team-files/media/Dadi"}
                   alt="Dadi Dharani's Image"
                 />
               </div>
@@ -137,7 +140,7 @@ function TeamDetails() {
                   </a>
                 </div>
                 <img
-                  src="/static/team-files/media/Govind"
+                  src={prefix + "/static/team-files/media/Govind"}
                   alt="Govind Saju's Image"
                 />
               </div>
@@ -164,7 +167,7 @@ function TeamDetails() {
                   </a>
                 </div>
                 <img
-                  src="/static/team-files/media/Jacob"
+                  src={prefix + "/static/team-files/media/Jacob"}
                   alt="Jacob Thomas Sony's Image"
                 />
               </div>
@@ -191,7 +194,7 @@ function TeamDetails() {
                   </a>
                 </div>
                 <img
-                  src="/static/team-files/media/Jujhaar"
+                  src={prefix + "/static/team-files/media/Jujhaar"}
                   alt="Jujhaar Singh's Image"
                 />
               </div>
@@ -218,7 +221,7 @@ function TeamDetails() {
                   </a>
                 </div>
                 <img
-                  src="/static/team-files/media/Kaushal"
+                  src={prefix + "/static/team-files/media/Kaushal"}
                   alt="Kaushal Jadhav's Image"
                 />
               </div>
@@ -245,7 +248,7 @@ function TeamDetails() {
                   </a>
                 </div>
                 <img
-                  src="/static/team-files/media/Pranav"
+                  src={prefix + "/static/team-files/media/Pranav"}
                   alt="Pranav Vivek Malpure's Image"
                 />
               </div>
@@ -272,7 +275,7 @@ function TeamDetails() {
                   </a>
                 </div>
                 <img
-                  src="/static/team-files/media/Pranava"
+                  src={prefix + "/static/team-files/media/Pranava"}
                   alt="Pranava Singhal's Image"
                 />
               </div>
@@ -299,7 +302,7 @@ function TeamDetails() {
                   </a>
                 </div>
                 <img
-                  src="/static/team-files/media/Sourabh"
+                  src={prefix + "/static/team-files/media/Sourabh"}
                   alt="Sourabh sanjay hanje's Image"
                 />
               </div>
@@ -326,7 +329,7 @@ function TeamDetails() {
                   </a>
                 </div>
                 <img
-                  src="/static/team-files/media/Vivek"
+                  src={prefix + "/static/team-files/media/Vivek"}
                   alt="Vivek Dhara's Image"
                 />
               </div>
@@ -353,7 +356,7 @@ function TeamDetails() {
                   </a>
                 </div>
                 <img
-                  src="/static/team-files/media/Gade"
+                  src={prefix + "/static/team-files/media/Gade"}
                   alt="Gade Chandramouli's Image"
                 />
               </div>
@@ -380,7 +383,7 @@ function TeamDetails() {
                   </a>
                 </div>
                 <img
-                  src="/static/team-files/media/Saksham"
+                  src={prefix + "/static/team-files/media/Saksham"}
                   alt="Saksham Katiyar's Image"
                 />
               </div>
@@ -407,7 +410,7 @@ function TeamDetails() {
                   </a>
                 </div>
                 <img
-                  src="/static/team-files/media/Tejas"
+                  src={prefix + "/static/team-files/media/Tejas"}
                   alt="Tejas Pravin Amritkar's Image"
                 />
               </div>
@@ -434,7 +437,7 @@ function TeamDetails() {
                   </a>
                 </div>
                 <img
-                  src="/static/team-files/media/Shrey"
+                  src={prefix + "/static/team-files/media/Shrey"}
                   alt="Shrey Ganatra's Image"
                 />
               </div>
@@ -461,7 +464,7 @@ function TeamDetails() {
                   </a>
                 </div>
                 <img
-                  src="/static/team-files/media/Harsh"
+                  src={prefix + "/static/team-files/media/Harsh"}
                   alt="Harsh Shah's Image"
                 />
               </div>

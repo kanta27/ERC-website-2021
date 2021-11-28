@@ -1,9 +1,10 @@
 import * as React from 'react'
 import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
-const glob = require('glob')
-
 import Layout from '../../components/Layout'
+
+const glob = require('glob')
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ""
 
 export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
   function reformatDate(fullDate) {
@@ -24,7 +25,7 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
       <article className="blog">
         <figure className="blog__hero">
           <img
-            src={frontmatter.hero_image}
+            src={prefix + frontmatter.hero_image}
             alt={`blog_hero_${frontmatter.title}`}
           />
         </figure>

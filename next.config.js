@@ -6,6 +6,6 @@ module.exports = {
     })
     return config
   },
-  basePath: "/ERC-website-2021",
-  assetPrefix: "/ERC-website-2021"
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH,
+  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH
 }
