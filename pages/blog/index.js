@@ -49,8 +49,8 @@ export async function getStaticProps() {
   return {
     props: {
       allBlogs: posts,
-      title: siteConfig.default.title,
-      description: siteConfig.default.description,
+      title: siteConfig.blog.title,
+      description: siteConfig.blog.description,
     },
   }
 }
