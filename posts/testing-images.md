@@ -1,7 +1,7 @@
 ---
 title: Testing images
 author: Jujhaar
-hero_image: ''
+hero_image: "/ERC-website-2021/static/screen-shot-2021-11-28-at-14-20-01.png"
 date: 
 
 ---
