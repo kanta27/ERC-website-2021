@@ -12,7 +12,7 @@ const NavBar=()=>{
         <ul className={styles.list}>
           <li className={styles.buttons_view}><Link href="https://erciitb.github.io/website-2020/#home"><a>Home</a></Link></li>
           <li className={styles.buttons_view}><Link href="/blog"><a>Blog</a></Link></li>
-          <li className={styles.buttons_view}><Link href="/events"><a>Events</a></Link></li>
+          <li className={styles.buttons_view}><Link href="https://erciitb.github.io/website-2020/#events"><a>Events</a></Link></li>
           <li className={styles.buttons_view}><Link href="https://erciitb.github.io/website-2020/#ercteamdet"><a>Team Details</a></Link></li>
           <li className={styles.buttons_view}><Link href="https://erciitb.github.io/website-2020/#contact"><a>Contact Us</a></Link></li>
         </ul>
@@ -26,7 +26,7 @@ const NavBar=()=>{
             <li className={styles.buttons_view}><Link href="#"><a>Close &times;</a></Link></li>
             <li className={styles.buttons_view}><Link href="https://erciitb.github.io/website-2020/#home"><a>Home</a></Link></li>
             <li className={styles.buttons_view}><Link href="/blog"><a>Blog</a></Link></li>
-            <li className={styles.buttons_view}><Link href="/events"><a>Events</a></Link></li>
+            <li className={styles.buttons_view}><Link href="https://erciitb.github.io/website-2020/#events"><a>Events</a></Link></li>
             <li className={styles.buttons_view}><Link href="https://erciitb.github.io/website-2020/#ercteamdet"><a>Team Details</a></Link></li>
             <li className={styles.buttons_view}><Link href="https://erciitb.github.io/website-2020/#contact"><a>Contact Us</a></Link></li>
           </ul>
