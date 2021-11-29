@@ -20,3 +20,6 @@ fields:
     time_format: 
     display_utc: false
   label: date
+pages:
+- posts/controls-theory.md
+- posts/sensor-fusion.md

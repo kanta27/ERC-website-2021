@@ -24,7 +24,7 @@ const BlogList = ({ allBlogs }) => {
                 <li>
                   <div className="hero_image">
                     <img
-                      src={prefix + post.frontmatter.hero_image}
+                      src={post.frontmatter.hero_image}
                       alt={post.frontmatter.hero_image}
                     />
                   </div>
