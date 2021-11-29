@@ -2,7 +2,7 @@
 title: Controls Theory
 author: Pranav Malpure
 hero_image: "/ERC-website-2021/static/controls_theory_cover.jpg"
-date: 2021-11-25T13:50:00Z
+date: 2021-11-25T13:50:00.000+00:00
 
 ---
 _Control theory is a branch of mathematics and engineering, which defines the conditions needed for a system to maintain a controlled output in the face of input variation_. In simple terms, we seek to stabilize our system through some control theory concepts when many factors can destabilize it. At the end of reading this article, you can expect to have an overview of control theory with some basic knowledge of PID control.
@@ -23,12 +23,12 @@ Now that you understand basic terms let's move on to classifying control systems
 
 We classify control systems on various bases, but the most prominent ones are:
 
-### 1. Based on feedback (output)
+## 1. Based on feedback (output)
 
 * **Open-loop control system** - In this type of system, the input given to the controller is independent of the output. In the above car example, we can see that if the driver doesn’t pay heed to the current state of the system(the output) and drives it just based on some pre-learned instructions, then this system would be an open loop, as there are no changes made to the input depending on the output. As you must have noticed, this type of system is problematic as it cannot account for any uncertainties.
 * **Closed-loop control system** - Here, the input commands are based on the output received. For example, when a car stops in front, the driver’s input will change, and they will apply brakes.
 
-### 2. Based on energy expenditure
+## 2. Based on energy expenditure
 
 * **Active** - In this type, a certain amount of energy is required to implement the control commands. For example, to accelerate the car, it will consume fuel.
 * **Passive** - This system involves minimal energy expenditure to implement the input into the system. For example, if the car goes downhill, it can be controlled by just applying the brakes.
@@ -37,7 +37,7 @@ Since we now have an overview of control theory, let us bring some maths into th
 
 Wondering what use maths is of? Read on...
 
-## Control Law
+# Control Law
 
 Various types of systems have different anomalies present in them. In many cases, we can express the output and correction to the input to control the system through some mathematical relation. This relation is known as a _control law_. So, a _control law_ is a mathematical law that relates output and input, along with other control command parameters or measurable properties of the state.
 
@@ -45,7 +45,7 @@ Example:   		u(t) = -K(x(t) - x0)
 
 There are various control laws, such as _Linear Quadratic Regulator_ (the above example is an LQR), _PID control_, etc., which may be helpful in different scenarios. One such law is PID which is widely used even in industries because it is simple and works for almost every case.
 
-## Proportional-Integral-Derivative (PID)
+# Proportional-Integral-Derivative (PID)
 
 The control law for PID is:
 
@@ -69,15 +69,15 @@ Here, _e(t)_ is the error between the desired and the actual state.
 
 This law has three parts: **proportional**, **integral** and **derivative** parts; each one of them has its own importance.
 
-##### Proportional(P)
+**Proportional(P)**
 
 In this the input is linearly proportional to the error, which means that the error is just scaled using the constant **Kp**.
 
-##### Integral(I)
+**Integral(I)**
 
 The integral of error over time is scaled with a constant **Ki**.
 
-##### Derivative(D)
+**Derivative(D)**
 
 Here, the derivative of the error is scaled and multiplied by the constant **Kd**.
 
