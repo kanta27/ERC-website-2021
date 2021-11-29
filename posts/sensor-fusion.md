@@ -1,7 +1,7 @@
 ---
 title: Sensor Fusion
 author: Govind Saju
-hero_image: "/static/fusion_sensors_cover.jpg"
+hero_image: "/ERC-website-2021/static/fusion_sensors_cover.jpg"
 date: 2021-11-24T12:30:00Z
 
 ---
@@ -25,7 +25,7 @@ Sensor Fusion algorithms can be classified on different parameters:
 * **Mid Level Fusion:** Fusing the detections from each sensor
 * **High Level Fusion:** Fusing the trajectories (predictions) of each sensor
 
-![](/static/fusion_sensors_image3.png)
+![](/ERC-website-2021/static/fusion_sensors_image3.png)
 
 ### On the basis of Centralization Level (Where?)
 
@@ -33,7 +33,7 @@ Sensor Fusion algorithms can be classified on different parameters:
 * **Decentralized:** Each sensor fuses the data and sends it onto the next one
 * **Distributed:** Each sensor fuses data locally and sends it to the next unit
 
-![](/static/fusion_sensors_image2.png)
+![](/ERC-website-2021/static/fusion_sensors_image2.png)
 
 ### On the basis of Composition Level (What?)
 
@@ -41,7 +41,7 @@ Sensor Fusion algorithms can be classified on different parameters:
 * **Complementary Fusion:** When different sensors are used to look at different scenes to obtain data that couldn’t have been obtained had the been used individually
 * **Coordinated Fusion:** Using multiple sensors to produce a new scene, but looking at the same object. E.g. 3D reconstruction
 
-![](/static/fusion_sensors_image1.png)
+![](/ERC-website-2021/static/fusion_sensors_image1.png)
 
 For more details regarding the types of sensor fusion, check [here](https://www.thinkautonomous.ai/blog/?p=9-types-of-sensor-fusion-algorithms "https://www.thinkautonomous.ai/blog/?p=9-types-of-sensor-fusion-algorithms").
 

@@ -25,7 +25,7 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
       <article className="blog">
         <figure className="blog__hero">
           <img
-            src={prefix + frontmatter.hero_image}
+            src={frontmatter.hero_image}
             alt={`blog_hero_${frontmatter.title}`}
           />
         </figure>
