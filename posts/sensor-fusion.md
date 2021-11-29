@@ -21,7 +21,7 @@ Sensor Fusion algorithms can be classified on different parameters:
 
 ### On the basis of Abstraction Level (When?)
 
-*  **Low Level Fusion:** Fusing the raw data coming in from different sensors
+* **Low Level Fusion:** Fusing the raw data coming in from different sensors
 * **Mid Level Fusion:** Fusing the detections from each sensor
 * **High Level Fusion:** Fusing the trajectories (predictions) of each sensor
 
@@ -61,18 +61,18 @@ For a basic example showing how two measurements can be combined, check [this](h
 
 * A Kalman filter is an algorithm that estimates unknown values by taking data inputs from multiple sources, despite possibly having a high amount of signal noise.
 * It has the advantage of predicting unknown values more accurately by combining measurements than what is obtained on using the measurements individually.
-* The Kalman filter is a recursive algorithm that depends only on the previous state of the system and the current observed sensor data to estimate the current state of the system. 
+* The Kalman filter is a recursive algorithm that depends only on the previous state of the system and the current observed sensor data to estimate the current state of the system.
 * For more details regarding the Kalman filter, check [here](https://www.kalmanfilter.net/default.aspx "https://www.kalmanfilter.net/default.aspx") or [here](https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/ "https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/").
 
 ### Based on Bayesian Networks
 
-* Bayes Rule in probability is the backbone of state update equations used for sensor fusion. Bayesian Networks based on Bayes rule predicts the likelihood that any given measurement is a contributing factor in determining a given parameter. 
+* Bayes Rule in probability is the backbone of state update equations used for sensor fusion. Bayesian Networks based on Bayes rule predicts the likelihood that any given measurement is a contributing factor in determining a given parameter.
 * For a detailed study of Bayesian Networks, check [here](https://en.wikipedia.org/wiki/Bayesian_network "https://en.wikipedia.org/wiki/Bayesian_network").
 * Some of the algorithms used for Sensor Fusion based on Bayesian networks are [K2](http://web.cs.wpi.edu/\~cs539/s05/Projects/k2_algorithm.pdf "http://web.cs.wpi.edu/~cs539/s05/Projects/k2_algorithm.pdf"), [hill climbing](https://www.geeksforgeeks.org/introduction-hill-climbing-artificial-intelligence/ "https://www.geeksforgeeks.org/introduction-hill-climbing-artificial-intelligence/"), [simulated annealing](https://en.wikipedia.org/wiki/Simulated_annealing "https://en.wikipedia.org/wiki/Simulated_annealing").
 
 ### The Dempster-Shafer Theory
 
-* This theory, called the theory of belief functions or the evidence theory, is a general framework for working with uncertainties and measurements. 
+* This theory, called the theory of belief functions or the evidence theory, is a general framework for working with uncertainties and measurements.
 * Dempster–Shafer theory is based on two ideas: obtaining degrees of belief for one question from subjective probabilities for a related question, and Dempster's rule for combining such degrees of belief when they are based on independent items of evidence.
 * For more details on this theory, check [here](https://en.wikipedia.org/wiki/Dempster%E2%80%93Shafer_theory "https://en.wikipedia.org/wiki/Dempster%E2%80%93Shafer_theory") or [here](https://www.geeksforgeeks.org/ml-dempster-shafer-theory/ "https://www.geeksforgeeks.org/ml-dempster-shafer-theory/").
 
