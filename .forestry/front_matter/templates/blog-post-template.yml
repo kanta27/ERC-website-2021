@@ -21,5 +21,6 @@ fields:
     display_utc: false
   label: date
 pages:
+- posts/arduino.md
 - posts/controls-theory.md
 - posts/sensor-fusion.md
