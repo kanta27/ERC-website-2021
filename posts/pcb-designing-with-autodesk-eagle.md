@@ -2,7 +2,7 @@
 title: PCB Designing with Autodesk Eagle
 author: Kaushal Jadhav
 hero_image: "/ERC-website-2021/static/pcb_cover.png"
-date: 
+date: 2021-11-24T12:30:00Z
 
 ---
 PCB is an acronym for Printed Circuit Board. It is a board with many lines and pads that connects various points together using conductive pathways. Traces are etched on copper sheets to make these pathways and the sheets are then laminated on a non-conductive substrate board.
