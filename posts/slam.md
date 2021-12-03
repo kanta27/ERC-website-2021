@@ -25,11 +25,12 @@ The general idea of slam can be subdivided into different stages:
 * State Update
 * Landmark Update
 
-![](/ERC-website-2021/static/slam_image11.jpg)*_In the image above, EKF stands for Extended Kalman Filter, an algorithm used for implementing SLAM._
+![](/ERC-website-2021/static/slam_image11.jpg)  
+\*_In the image above, EKF stands for Extended Kalman Filter, an algorithm used for implementing SLAM._
 
 SLAM is an idea through which we estimate the robot’s state through its controls, and using the locations of the landmarks we witness, we improve the estimate of the robot's state. It is based on a probabilistic model, where each item has a probability of being in a particular position.
 
-# Applications of Slam
+# Applications of SLAM
 
 ![](/ERC-website-2021/static/slam_image10.png)
 
