@@ -5,8 +5,6 @@ hero_image: "/ERC-website-2021/static/fusion_sensors_cover.jpg"
 date: 2021-11-24T12:30:00.000+00:00
 
 ---
-# What is Sensor Fusion?
-
 Sensor Fusion refers to the process of combining measurements from different sources to ensure that resulting information has lesser uncertainty as compared to any of the individual measurements. As an example, we can calculate depth information from 2-D images by combining data from 2 cameras at slightly different locations.
 
 The different sources for the information we obtain need not be identical. There are three types of fusion methods:
