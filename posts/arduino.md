@@ -220,10 +220,10 @@ Gives the time in milliseconds from the time this command is initiated until Pin
 
 **Exercise:**
 
-How to measure distance using Ultrasonic sensor **HC-SR04  
-\**[using an Ultrasonic sensor](https://create.arduino.cc/projecthub/knackminds/how-to-measure-distance-using-ultrasonic-sensor-hc-sr04-a-b9f7f8) (Error in pin mapping)  
-Note (TRIG connection of the sensor attached to digital **pin 12  
-\**ECHO connection of the sensor attached to digital **pin 13**)
+How to measure distance using Ultrasonic sensor **HC-SR04** - [Link](https://create.arduino.cc/projecthub/knackminds/how-to-measure-distance-using-ultrasonic-sensor-hc-sr04-a-b9f7f8) (Error in pin mapping)  
+Note:  
+TRIG connection of the sensor attached to digital **pin 12**  
+ECHO connection of the sensor attached to digital **pin 13**)
 
 ## LCD
 
