@@ -5,7 +5,7 @@ hero_image: "/ERC-website-2021/static/controls_theory_cover.jpg"
 date: 2021-11-25T13:50:00.000+00:00
 
 ---
-_Control theory is a branch of mathematics and engineering, which defines the conditions needed for a system to maintain a controlled output in the face of input variation_. In simple terms, we seek to stabilize our system through some control theory concepts when many factors can destabilize it. At the end of reading this article, you can expect to have an overview of control theory with some basic knowledge of PID control.
+Control theory is a branch of mathematics and engineering, which defines the conditions needed for a system to maintain a controlled output in the face of input variation. In simple terms, we seek to stabilize our system through some control theory concepts when many factors can destabilize it. At the end of reading this article, you can expect to have an overview of control theory with some basic knowledge of PID control.
 
 To understand this, first, let us know a few terms:
 
