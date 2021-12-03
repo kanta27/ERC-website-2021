@@ -25,5 +25,6 @@ pages:
 - posts/controls-theory.md
 - posts/motors-and-motor-drivers.md
 - posts/pcb-designing-with-autodesk-eagle.md
+- posts/rviz.md
 - posts/sensor-fusion.md
 - posts/slam.md
