@@ -23,5 +23,6 @@ fields:
 pages:
 - posts/arduino.md
 - posts/controls-theory.md
+- posts/pcb-designing-with-autodesk-eagle.md
 - posts/sensor-fusion.md
 - posts/slam.md
