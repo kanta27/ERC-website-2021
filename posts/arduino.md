@@ -5,7 +5,7 @@ hero_image: "/ERC-website-2021/static/arduino_cover.jpg"
 date: 2021-11-24T12:30:00Z
 
 ---
-# What is Arduino?
+Arduino is an **open-source electronics platform** based on easy-to-use hardware and software. Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online.
 
 * Open-source Electronics prototyping platform
 * Uses a “microprocessor”/”microcontroller”
@@ -109,8 +109,8 @@ See the code here : [Example2](https://github.com/Tejas2910/Getting-started-with
 
 ![](/ERC-website-2021/static/arduino_image14.png)
 
-**analogRead(Pin_no);  
-**Reads the input from the analog pins marked as A0,A1...A5 on the arduino board. This reading is a 10 bit value (0-1023).
+\**analogRead(Pin_no);  
+\**Reads the input from the analog pins marked as A0,A1...A5 on the arduino board. This reading is a 10 bit value (0-1023).
 
 Let's say Arduino is reading 2V.  
 2V is 40% of 5V (Vcc). In your Arduino program, you will then get the value 409 ( 40% of 1024 ). From this value, you can easily reverse the computation and get the information about the voltage that was applied.
@@ -119,8 +119,8 @@ Let's say Arduino is reading 2V.
 
 Serial is used for communication between the Arduino board and a computer or other devices. All Arduino boards have at least one serial port (also known as a UART or USART). It communicates on digital pins 0 (RX) and 1 (TX) as well as with the computer via USB. Thus, if you use these functions, you cannot also use pins 0 and 1 for digital input or output.
 
-**Arduino Serial port and Print Commands:  
-**See the example here : [Example 3](https://github.com/Tejas2910/Getting-started-with-Arduino/blob/main/README.md#example-3)  
+\**Arduino Serial port and Print Commands:  
+\**See the example here : [Example 3](https://github.com/Tejas2910/Getting-started-with-Arduino/blob/main/README.md#example-3)  
 Open the Serial monitor ( on top right corner)
 
 Serial.begin(baud_rate);  
@@ -144,8 +144,8 @@ print on the same line
 There are many serial functions that have not been covered in the previous segment, but they are important for some specific uses.  
 [https://www.arduino.cc/en/reference/serial](https://www.arduino.cc/en/reference/serial "https://www.arduino.cc/en/reference/serial")
 
-**Reading data from serial monitor :  
-**Example 4 : Tell the Arduino how many times you want to blink LED  
+\**Reading data from serial monitor :  
+\**Example 4 : Tell the Arduino how many times you want to blink LED  
 See the code here: [Example 4](https://github.com/Tejas2910/Getting-started-with-Arduino/blob/main/README.md#exmaple-4)
 
 ## Interrupt Pins
@@ -221,9 +221,9 @@ Gives the time in milliseconds from the time this command is initiated until Pin
 **Exercise:**
 
 How to measure distance using Ultrasonic sensor **HC-SR04  
-**[using an Ultrasonic sensor](https://create.arduino.cc/projecthub/knackminds/how-to-measure-distance-using-ultrasonic-sensor-hc-sr04-a-b9f7f8) (Error in pin mapping)  
+\**[using an Ultrasonic sensor](https://create.arduino.cc/projecthub/knackminds/how-to-measure-distance-using-ultrasonic-sensor-hc-sr04-a-b9f7f8) (Error in pin mapping)  
 Note (TRIG connection of the sensor attached to digital **pin 12  
-**ECHO connection of the sensor attached to digital **pin 13**)
+\**ECHO connection of the sensor attached to digital **pin 13**)
 
 ## LCD
 
@@ -256,8 +256,8 @@ For more information visit : [Liquid_Crystal_Library](https://www.arduino.cc/en/
 
   ![](/ERC-website-2021/static/arduino_image16.png)
 
-**IR Sensor People Counter  
-**To make a device which counts the number of people entered, excited and present in the room using an IR sensor.
+\**IR Sensor People Counter  
+\**To make a device which counts the number of people entered, excited and present in the room using an IR sensor.
 
 ![](/ERC-website-2021/static/arduino_image12.png)![](/ERC-website-2021/static/arduino_image7.png)
 
