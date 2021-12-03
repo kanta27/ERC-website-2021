@@ -2,7 +2,7 @@
 title: SLAM
 author: Govind Saju
 hero_image: "/ERC-website-2021/static/slam_cover.jpg"
-date: 
+date: 2021-11-24T12:30:00Z
 
 ---
 The objective of SLAM is to estimate a robot’s state (position and orientation) and create a map of the robot’s surroundings simultaneously using the knowledge of its controls and the observations made by its sensors.
