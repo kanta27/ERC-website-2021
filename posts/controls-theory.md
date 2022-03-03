@@ -125,6 +125,8 @@ Integral term adds the net error till the current time and tries to make it zero
 
 So here, the integral part will add up the steady-state error and slowly reduce the error.
 
+![](/ERC-website-2021/static/image6.png)
+
 As we can see from the above image, the initial small steady-state error is quickly reduced to zero using the _Integral_ term.
 
 This completes our analysis of the **PID** control law. Note that the constants Kp, Kd  & Ki are tuned ample times to get the perfect combination of the three, such that none of them overshadows the other terms, and we get our desired output.
