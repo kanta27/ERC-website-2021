@@ -10,11 +10,11 @@ const NavBar=()=>{
     <>
       <nav className={styles.navbar}>
         <ul className={styles.list}>
-          <li className={styles.buttons_view}><Link href="https://itc.gymkhana.iitb.ac.in/erc-iitb/#home"><a>Home</a></Link></li>
+          <li className={styles.buttons_view}><Link href="https://erciitb.github.io/#home"><a>Home</a></Link></li>
           <li className={styles.buttons_view}><Link href="/blog"><a>Blog</a></Link></li>
-          <li className={styles.buttons_view}><Link href="https://itc.gymkhana.iitb.ac.in/erc-iitb/#events"><a>Events</a></Link></li>
-          <li className={styles.buttons_view}><Link href="https://itc.gymkhana.iitb.ac.in/erc-iitb/#ercteamdet"><a>Team Details</a></Link></li>
-          <li className={styles.buttons_view}><Link href="https://itc.gymkhana.iitb.ac.in/erc-iitb/#contact"><a>Contact Us</a></Link></li>
+          <li className={styles.buttons_view}><Link href="https://erciitb.github.io/#events"><a>Events</a></Link></li>
+          <li className={styles.buttons_view}><Link href="https://erciitb.github.io/#ercteamdet"><a>Team Details</a></Link></li>
+          <li className={styles.buttons_view}><Link href="https://erciitb.github.io/#contact"><a>Contact Us</a></Link></li>
         </ul>
       </nav> 
       <div className={styles.navbar_mobile}>
